@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'sales_inventory.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'sales_inventory_db',   
         'USER': 'postgres',            
         'PASSWORD': 'mypostgres',    
